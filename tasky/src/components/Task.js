@@ -2,11 +2,11 @@ import React from "react";
 
 const Task = (props) => {
     const priorityColors = {
-        high: 'red',
-        medium: 'yellow',
-        low: 'green',
+        High: 'red',
+        Medium: 'yellow',
+        Low: 'green',
     };
-
+    
     return (
         <div className="card" style={{backgroundColor: props.done ? 'lightgrey' : '#5bb4c4'}}
         >
